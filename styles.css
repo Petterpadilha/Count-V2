@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(231, 229, 229);
+  height: 110px;
+  width: 190px;
+}
+h4 {
+  text-align: center;
+  margin-top: -150px;
+  font-size: 3.9rem;
+}
+.display {
+  position: absolute;
+  margin-top: -120px;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3.9rem;
+}
+.reset {
+  color: rgb(3, 0, 0);
+  font-size: 1.4rem;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 190px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(7, 7, 7);
+}
+.aumentar {
+  color: rgb(5, 0, 0);
+  font-size: 1.4rem;
+  position: absolute;
+  margin-top: -120px;
+  top: 200%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 190px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(7, 7, 7);
+}
+.diminuir {
+  color: rgb(5, 0, 0);
+  font-size: 1.4rem;
+  position: absolute;
+  margin-top: -120px;
+  top: 180%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(7, 7, 7);
+}
+.sub {
+  color: rgb(5, 0, 0);
+  font-size: 2.6rem;
+  position: absolute;
+  margin-top: -120px;
+  top: 161%;
+  left: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(7, 7, 7);
+}
+.sum {
+  color: rgb(5, 0, 0);
+  font-size: 1.4rem;
+  position: absolute;
+  margin-top: -120px;
+  top: 161%;
+  right: 75px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(7, 7, 7);
+}
+.incre {
+  color: rgb(5, 0, 0);
+  position: absolute;
+  margin-top: -120px;
+  top: 161%;
+  font-size: 1.9rem;
+  left: 90px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.reset:hover {
+    background-color: rgb(184, 180, 180);
+}
+.aumentar:hover {
+    background-color: rgb(184, 180, 180);
+}
+.sub:hover {
+    background-color: rgb(184, 180, 180);
+}
+.sum:hover {
+    background-color: rgb(184, 180, 180);
+}
