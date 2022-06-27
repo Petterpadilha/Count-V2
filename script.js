@@ -3,22 +3,22 @@ let increment = 0;
 
 $('.aumentar').on('click',function() {
     count = count  + increment 
-    $('.display').html(count);
+    $('.display').text(count);
 })
 
 
 $('.reset').on('click',function(){
     count = 0;
     increment = 0
-    $('.display ,.incre').html(count,increment);
+    $('.display ,.incre').text(count,increment);
 })
 
 $('.sum').on('click',function() {
     increment = increment + 1;
     
-    $('.incre').html(increment);
+    $('.incre').text(increment);
 })
 $('.sub').on('click',function() {
     increment = increment -1;
-    $('.incre').html(increment)
+    $('.incre').text(increment)
 })
